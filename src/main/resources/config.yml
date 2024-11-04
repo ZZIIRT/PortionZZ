@@ -1,0 +1,97 @@
+# _____   ____ _______ _____ ____  _   _ ____________
+# |  __ \ / __ \__   __|_   _/ __ \| \ | |___  /___  /
+# | |__) | |  | | | |    | || |  | |  \| |  / /   / /
+# |  ___/| |  | | | |    | || |  | | . ` | / /   / /
+# | |    | |__| | | |   _| || |__| | |\  |/ /__ / /__
+# |_|     \____/  |_|  |_____\____/|_| \_/_____/_____|
+
+# Разработчик: Web/Java | Связаться: @zzrtk в Telegram
+
+potions:
+  angel:
+    name: "&d&lОТВАР АНГЕЛА"
+    lore:
+      - ""
+      - "&d▸ &fСила II &7(&d2:30&7)"
+      - "&d▸ &fСкорость III &7(&d2:30&7)"
+      - "&d▸ &fОгнестойкость &7(&d2:30&7)"
+      - "&d▸ &fСопротивление I &7(&d2:30&7)"
+      - "&d▸ &fИссушение &7(&d0:15&7)"
+      - "&d▸ &fСлепота I &7(&d0:15&7)"
+      - ""
+    color: "151,89,189"
+    hideAttributes: true
+    effects:
+      - "INCREASE_DAMAGE:1:3000"
+      - "SPEED:2:3000"
+      - "FIRE_RESISTANCE:1:3000"
+      - "DAMAGE_RESISTANCE:0:3000"
+      - "WITHER:0:300"
+      - "BLINDNESS:0:300"
+  leto:
+    name: "&e&lОТВАР ЛЕТО"
+    lore:
+      - ""
+      - "&e▸ &fСопротивление I &7(&e1:00&7)"
+      - "&e▸ &fРегенерация I &7(&e1:00&7)"
+      - ""
+    color: "253,245,0"
+    hideAttributes: true
+    effects:
+      - "DAMAGE_RESISTANCE:0:1200"
+      - "REGENERATION:0:1200"
+  ares:
+    name: "&a&lНАСТОЙКА АРЕСА"
+    lore:
+      - ""
+      - "&a▸ &fСопротивление &fIII &7(&a0:15&7)"
+      - ""
+    color: "0,128,0"
+    hideAttributes: true
+    effects:
+      - "DAMAGE_RESISTANCE:2:300"
+
+  levetation:
+    name: "&e&lОТВАР ЛИВЕРА"
+    lore:
+      - ""
+      - "&e▸ &fЛевитация &7(&e0:15&7)"
+      - ""
+    color: "240,230,140"
+    hideAttributes: true
+    effects:
+      - "LEVITATION:0:300"
+
+  healer:
+    name: "&c&lЗЕЛЬЕ ЛЕКАРЯ"
+    lore:
+      - ""
+      - "&c▸ &fРегенерация III &7(&c1:30&7)"
+      - "&c▸ &fСлепота I &7(&c0:15&7)"
+      - ""
+    color: "255,20,147"
+    hideAttributes: true
+    effects:
+      - "REGENERATION:2:1800"
+      - "BLINDNESS:0:300"
+  vedma:
+    name: "&8&lОТВАР ВЕДЬМЫ"
+    lore:
+      - ""
+      - "&8▸ &fЗамедление III &7(&81:00&7)"
+      - "&8▸ &fСлепота I &f&7(&80:15&7)"
+      - ""
+    color: "105,105,105"
+    hideAttributes: true
+    splash_potion: true
+    effects:
+      - "SLOW:2:1200"
+      - "BLINDNESS:0:300"
+
+messages:
+  no_permission: "&6&l(ЗЕЛЬЯ) &fУ вас нет &6прав&f для использования этой &6команды.."
+  usage: "&6&l(ЗЕЛЬЯ) &fИспользование: &6/zpotion give <игрок> <зелье>"
+  unknown_command: "&6&l(ЗЕЛЬЯ) &fНеизвестная &6команда."
+  player_not_found: "&6&l(ЗЕЛЬЯ) &fИгрок не &6найден."
+  potion_not_found: "&6&l(ЗЕЛЬЯ) &fЗелье не &6найдено."
+  potion_received: "&6&l(ЗЕЛЬЯ) &fВы &6получили&f %potion%."

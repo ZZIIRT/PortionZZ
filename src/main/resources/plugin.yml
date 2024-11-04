@@ -1,0 +1,9 @@
+name: PotionZZ
+version: '${project.version}'
+main: org.zzii.potionzz.PotionZZ
+author: ZZII
+commands:
+  zpotion:
+    permission: zpotion.give
+
+
